@@ -1,0 +1,5 @@
+ {movies && movies.length > 0 ? (
+        <div className="container">
+          {movies.map((movie) => (
+            <MovieCardList movie={movie} />
+          ))}
